@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <kiosk>
+    <application label="DWDemo" package="com.symbol.datawedge" activity="com.symbol.datawedge.DWDemoActivity"/>
+  </kiosk>
+  <applications>
+    
+  <application label="Velocity" package="com.wavelink.velocity" activity="com.wavelink.velocity.te.SplashActivity"/>
+  <application label="StageNow" package="com.zebra.devicemanager" activity="com.zebra.devicemanager.stagenow.main.HomeScreen"/>
+  </applications>
+  <tools>
+    <application label="DWDemo" package="com.symbol.datawedge" activity="com.symbol.datawedge.DWDemoActivity"/>
+  </tools>
+  <passwords>
+		<admin attempts="1">2PCAMuL7dzzTK0NA6Res0rZVq4cnrSPsFtVKIRXJjPQ=M+rY9/fPaxneFEkJad3bR1gsQIMmYVi7xJKyG61OS+c=</admin>
+  </passwords>
+  <user_options/>
+  <preferences>
+    <orientation/>
+    <wallpaper/>
+    <usb_debugging_disabled>0</usb_debugging_disabled>
+    <icon_label_text_color>#FFFFFFFF</icon_label_text_color>
+    <recent_apps_button_disabled>0</recent_apps_button_disabled>
+    <auto_launch_enable>0</auto_launch_enable>
+    <service_auto_launch_enable>0</service_auto_launch_enable>
+    <keyguard_search_disabled>0</keyguard_search_disabled>
+    <system_settings_restricted>0</system_settings_restricted>
+    <recent_apps_access_disabled>0</recent_apps_access_disabled>
+    <icon_label_background_color>#00FFFFFF</icon_label_background_color>
+    <keyguard_camera_disabled>0</keyguard_camera_disabled>
+    <kiosk_mode_enabled>0</kiosk_mode_enabled>
+    <title>
+      <value>[serial_number]</value>
+    </title>
+    <screen_blanking>
+      <blanking_enabled>0</blanking_enabled>
+      <speed_threshold>10</speed_threshold>
+      <blanking_mode>1</blanking_mode>
+    </screen_blanking>
+  </preferences>
+</config>
